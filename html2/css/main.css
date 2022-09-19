@@ -1,0 +1,61 @@
+main {
+  display: flex;
+  text-align: center;
+}
+main > article {
+  flex: 1;
+  order: 2;
+}
+main > nav {
+  width: 200px;
+  order: 1;
+}
+main > aside {
+  width: 200px;
+  order: 3;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+header {
+  width: 100%;
+  background-color: chartreuse;
+  padding: 10px 0 30px 10px;
+  height: 10%;
+}
+main {
+  height: 80%;
+}
+box {
+  display: flex;
+}
+nav {
+  width: 20%;
+  background-color: beige;
+  padding: 10px 0 30px 10px;
+  height: 100%;
+}
+article {
+  width: 60%;
+  background-color: white;
+  padding: 10px 0 30px 10px;
+  height: 100%;
+}
+aside {
+  width: 20%;
+  background-color: beige;
+  padding: 10px 0 30px 10px;
+  height: 100%;
+}
+footer {
+  width: 100%;
+  background-color: chartreuse;
+  padding: 10px 0 30px 10px;
+  height: 10%;
+}
